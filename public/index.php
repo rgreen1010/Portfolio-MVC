@@ -1,7 +1,11 @@
 <?php
-    require_once '../app/init.php';
+    // require_once '../app/init.php';
+
+    // Init Core MVC class 
+    // $init = new Core;
 ?>
 <!-- 
+    -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,8 @@
     <title>Portfolio-MVC</title>
 </head>
 <body>
-    
+    <h1>Portfolio-MVC TEST  TEST</h1>
 </body>
 </html> 
--->
+<!-- 
+    -->
