@@ -1,7 +1,7 @@
 <?php
     require_once '../app/init.php';
 
-    // Init Application MVC class 
+    // Instantiate  the Application 
     $init = new AppMvc;
 ?>
 <!-- 
