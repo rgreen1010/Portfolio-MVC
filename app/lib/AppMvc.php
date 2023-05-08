@@ -12,15 +12,16 @@
       
             $url = $this->getUrlArgs();
             if ( isset($url[0]) ) {
-              // Look in controllers for first value
+              // Look in controllers for first value from url
+              // Controller files are capitolized
               if(file_exists('../app/controllers/' . ucwords($url[0]). '.php')){
-                // If exists, set as controller
+                // If exists, set as the controller to use
                 $this->currentController = ucwords($url[0]);
                 // Unset 0 Index
                 unset($url[0]);
               }
             }
-            // Require the controller
+            // Require the controller (load the controller class file )
             require_once '../app/controllers/'. $this->currentController . '.php';
       
             // Instantiate controller class

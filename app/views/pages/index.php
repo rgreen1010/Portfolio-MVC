@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,16 @@
     <title>Landing</title>
 </head>
 <body>
-    <h1>Test page: <?php echo __FILE__; ?></h1>
+    <h1>Test page: <?php //echo __FILE__; ?></h1>
 </body>
-</html>
+</html> -->
+
+
+<?php require APPROOT . '/views/inc/header.php'; ?>
+  <div class="jumbotron jumbotron-flud text-center">
+    <div class="container">
+    <h1 class="display-3"><?php echo $data['title']; ?></h1>
+    <p class="lead"><?php echo $data['description']; ?></p>
+    </div>
+  </div> 
+<?php require APPROOT . '/views/inc/footer.php'; ?>
