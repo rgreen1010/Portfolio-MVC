@@ -10,6 +10,6 @@
   <title><?php echo SITENAME; ?></title>
 </head>
 <body>
-  <?php require APPROOT . '/views/inc/navbar.php'; ?>
+  <?php require APPROOT . '/views/inc/nav.php'; ?>
   <div class="container">
   
